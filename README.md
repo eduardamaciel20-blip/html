@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog Tech</title>
-</head>
-<body>
 
-    <h1>Meu blog tech</h1>
-
-    <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -33,7 +19,9 @@
 
         <article>
             <h2>Meu primeiro post</h2>
+
             <p>Por: Marcelo Paludetto</p>
+
             <p>
                 Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
                 e curiosidades da área de tecnologia.

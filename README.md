@@ -47,9 +47,9 @@
             font-weight: bold;
         }
 
-        /* Botão de like */
         button {
             margin-top: 10px;
+            margin-right: 8px;
             padding: 8px 12px;
             border: none;
             border-radius: 6px;
@@ -86,10 +86,11 @@
                 Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
             </p>
 
-            <!-- Botão de like -->
-            <button>
-                ❤️ <span>0</span>
-            </button>
+            <!-- Botões de reação -->
+            <button>❤️ <span>0</span></button>
+            <button>👍 <span>0</span></button>
+            <button>😂 <span>0</span></button>
+            <button>🔥 <span>0</span></button>
 
         </div>
 

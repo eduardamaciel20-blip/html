@@ -7,7 +7,7 @@
     <title>Blog Tech</title>
 
     <style>
-        /* Estilo geral da página */
+        /* Reset básico */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -22,27 +22,35 @@
             padding: 20px;
         }
 
-        /* Conteúdo principal */
+        /* Área principal */
         main {
             background-color: #FFFFFF;
             color: #183C63;
 
-            text-align: center;
-
             max-width: 800px;
-            margin: 0 auto;
-
+            margin: 20px auto;
             padding: 20px;
+
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
         }
 
-        /* Títulos internos */
-        h2, h3 {
-            margin-top: 0;
+        /* Imagem */
+        img {
+            width: 80px;
+            height: 80px;
         }
 
-        /* Parágrafos */
-        p {
-            line-height: 1.5;
+        /* Bloco de texto */
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Autor em destaque */
+        .artigo-autor {
+            font-weight: bold;
         }
     </style>
 
@@ -50,23 +58,30 @@
 
 <body>
 
+    <!-- Cabeçalho do site -->
     <header>
         <h1>Meu blog tech</h1>
         <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
     </header>
 
+    <!-- Conteúdo principal -->
     <main>
 
-        <article>
+        <!-- Imagem do post -->
+        <img src="imagem.png" alt="Logotipo de tecnologia e educação com livro e cérebro digital">
+
+        <!-- Conteúdo do post -->
+        <div class="conteudo">
+
             <h2>Meu primeiro post</h2>
 
-            <p>Por: Marcelo Paludetto</p>
+            <p class="artigo-autor">Por: Marcelo Paludetto</p>
 
             <p>
                 Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
             </p>
 
-        </article>
+        </div>
 
     </main>
 

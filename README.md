@@ -26,12 +26,23 @@
         main {
             background-color: #FFFFFF;
             color: #183C63;
+
             text-align: center;
 
             max-width: 800px;
             margin: 0 auto;
 
             padding: 20px;
+        }
+
+        /* Títulos internos */
+        h2, h3 {
+            margin-top: 0;
+        }
+
+        /* Parágrafos */
+        p {
+            line-height: 1.5;
         }
     </style>
 
@@ -52,9 +63,9 @@
             <p>Por: Marcelo Paludetto</p>
 
             <p>
-                Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
-                e curiosidades da área de tecnologia.
+                Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
             </p>
+
         </article>
 
     </main>

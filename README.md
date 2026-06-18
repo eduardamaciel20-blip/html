@@ -7,14 +7,12 @@
     <title>Blog Tech</title>
 
     <style>
-        /* Reset básico */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
         }
 
-        /* Cabeçalho */
         header {
             background-color: #183C63;
             color: #FFFFFF;
@@ -22,7 +20,6 @@
             padding: 20px;
         }
 
-        /* Área principal */
         main {
             background-color: #FFFFFF;
             color: #183C63;
@@ -36,21 +33,33 @@
             align-items: flex-start;
         }
 
-        /* Imagem */
         img {
             width: 80px;
             height: 80px;
         }
 
-        /* Bloco de texto */
         .conteudo {
             display: flex;
             flex-direction: column;
         }
 
-        /* Autor em destaque */
         .artigo-autor {
             font-weight: bold;
+        }
+
+        /* Botão de like */
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #eee;
+        }
+
+        button:hover {
+            background-color: #ddd;
         }
     </style>
 
@@ -58,19 +67,15 @@
 
 <body>
 
-    <!-- Cabeçalho do site -->
     <header>
         <h1>Meu blog tech</h1>
         <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
     </header>
 
-    <!-- Conteúdo principal -->
     <main>
 
-        <!-- Imagem do post -->
         <img src="imagem.png" alt="Logotipo de tecnologia e educação com livro e cérebro digital">
 
-        <!-- Conteúdo do post -->
         <div class="conteudo">
 
             <h2>Meu primeiro post</h2>
@@ -81,9 +86,25 @@
                 Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
             </p>
 
+            <!-- Botão de like -->
+            <button>
+                ❤️ <span>0</span>
+            </button>
+
         </div>
 
     </main>
+
+    <script>
+        const botao = document.querySelector("button");
+
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado() {
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    </script>
 
 </body>
 

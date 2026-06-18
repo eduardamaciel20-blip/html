@@ -5,6 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Tech</title>
+
+    <style>
+        /* Estilo geral da página */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Conteúdo principal */
+        main {
+            background-color: #FFFFFF;
+            color: #183C63;
+            text-align: center;
+
+            max-width: 800px;
+            margin: 0 auto;
+
+            padding: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -17,43 +47,18 @@
     <main>
 
         <article>
-
             <h2>Meu primeiro post</h2>
-            <h3>Aprendendo HTML na prática</h3>
 
             <p>Por: Marcelo Paludetto</p>
 
-            <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-
-            <p>Este é um exemplo de como usamos diferentes tags para organizar conteúdo em uma página web.</p>
-
             <p>
-                Acesse mais conteúdos em:
-                <a href="https://www.wikipedia.org">Wikipedia</a>
+                Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
+                e curiosidades da área de tecnologia.
             </p>
-
-            <!-- Troquei a div por section porque esta parte representa uma seção temática da página (lista de ferramentas). -->
-            <section>
-                <p>Lista de ferramentas:</p>
-                <ul>
-                    <li>Computador</li>
-                    <li>Teclado</li>
-                    <li>Mouse</li>
-                </ul>
-            </section>
-
-            <div>
-                <p>Passos para aprender HTML:</p>
-                <ol>
-                    <li>Aprender tags básicas</li>
-                    <li>Praticar criação de páginas</li>
-                    <li>Adicionar estilo com CSS</li>
-                </ol>
-            </div>
-
         </article>
 
     </main>
 
 </body>
+
 </html>
